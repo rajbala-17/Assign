@@ -1,0 +1,126 @@
+/* Question 1: Styling Headings and Paragraphs */
+h1 {
+    text-align: center;
+  }
+  
+  p {
+    color: #333;
+    font-size: 20px;
+  }
+  
+  /* Question 2: Styling a Navigation Bar */
+  nav a {
+    text-decoration: none;
+    color: darkblue;
+    margin-right: 15px;
+  }
+  
+  nav a:hover {
+    color: orange;
+  }
+  
+  /* Question 3: Box Styling */
+  .box {
+    background-color: lightgray;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px 0;
+  }
+  
+  /* Question 4: Button Styling */
+  .btn {
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Question 5: Layout with Flexbox */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .container > div {
+    background: #eee;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+  }
+  
+  /* Question 6: Hover Card with Shadow */
+  .card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    transition: box-shadow 0.3s ease;
+    margin: 10px 0;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Question 7: Style Even and Odd Rows Differently */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+  }
+  
+  table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table tr:nth-child(odd) {
+    background-color: white;
+  }
+  
+  /* Question 8: Positioning a Badge on an Image */
+  .image-container {
+    position: relative;
+    display: inline-block;
+    margin: 10px 0;
+  }
+  
+  .badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+  }
+  
+  /* Question 9: Responsive Text Size */
+  .title {
+    font-size: 32px;
+  }
+  
+  @media (max-width: 600px) {
+    .title {
+      font-size: 20px;
+    }
+  }
+  
+  /* Question 10: Navigation Menu with Active Link */
+  .menu a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .menu a.active {
+    border-bottom: 2px solid black;
+  }
+  
